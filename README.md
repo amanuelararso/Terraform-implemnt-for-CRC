@@ -39,18 +39,16 @@ The AWS Cloud Resume Challenge (CRC) is a multi-faceted project aimed at showcas
    git clone https://github.com/amanuelararso/Terraform-implemnt-for-CRC.git
    cd Terraform-implemnt-for-CRC
 2. **terraform initilization**
-   <img width="1437" alt="Screen Shot 2024-06-27 at 6 35 44 PM" src="https://github.com/amanuelararso/Terraform-implemnt-for-CRC/assets/26092925/60fe1e4c-2e3c-4ff6-aaef-0a506566c1d1">
-
    ```sh
    terraform init
+<img width="1437" alt="Screen Shot 2024-06-27 at 6 35 44 PM" src="https://github.com/amanuelararso/Terraform-implemnt-for-CRC/assets/26092925/11b55b07-3bcf-48ee-9cae-4647d660ae5f">
 
-   
-
-
-4. **Deploy**
+3. **Deploy**
    ```sh
    terraform apply
-5. **Verify the Deployment**
+<img width="1437" alt="Screen Shot 2024-06-27 at 6 37 11 PM" src="https://github.com/amanuelararso/Terraform-implemnt-for-CRC/assets/26092925/c5a661c3-8bb2-4f7d-8a6d-d573975e7980">
+
+4. **Verify the Deployment**
 
 After the deployment is complete, verify the services are running as expected. Visit your CloudFront URL or custom domain to see your resume.
 
