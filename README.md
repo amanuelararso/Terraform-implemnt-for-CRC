@@ -31,10 +31,10 @@ The AWS Cloud Resume Challenge (CRC) is a multi-faceted project aimed at showcas
  - 2 S3 buckets - 11sec & 14sec
  - S3 bucket policy - 2sec
  - Lambda function - 14sec
- - Route 53 zone - 1m17sec
+ - Route 53 zone - 54sec
  - CloudFront Distribution - 7m0sec
   
-Generally, just a minute has elapsed to deploy most services, and a little above 8 minutes for route 53 and CloudFront. Pretty fast!
+Generally, just a minute has elapsed to deploy most services and about 8 minutes for route 53 and CloudFront. Pretty fast!
 
 
 ## Prerequisites
