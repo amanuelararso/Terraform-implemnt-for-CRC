@@ -25,14 +25,14 @@ The AWS Cloud Resume Challenge (CRC) is a multi-faceted project aimed at showcas
 - DynamoDB: To store and retrieve data (visitor count)required by the application.
 
  ## Time it took to deploy every service is:
-  API Gateway - 1sec
-  IAM role - 6sec
-  DynamoDB table - 10sec
-  2 S3 buckets - 11sec & 14sec
-  S3 bucket policy - 2sec
-  Lambda function - 14sec
-  Route 53 zone - 1m17sec
-  CloudFront Distribution - 7m0sec
+ - API Gateway - 1sec
+ - IAM role - 6sec
+ - DynamoDB table - 10sec
+ - 2 S3 buckets - 11sec & 14sec
+ - S3 bucket policy - 2sec
+ - Lambda function - 14sec
+ - Route 53 zone - 1m17sec
+ - CloudFront Distribution - 7m0sec
   
 Generally, just a minute has elapsed to deploy most services, and a little above 8 minutes for route 53 and CloudFront. Pretty fast!
 
