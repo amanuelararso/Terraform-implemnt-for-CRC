@@ -42,7 +42,8 @@ The AWS Cloud Resume Challenge (CRC) is a multi-faceted project aimed at showcas
    ```sh
    terraform init
 
-   <img width="1437" alt="Screen Shot 2024-06-27 at 6 35 44 PM" src="https://github.com/amanuelararso/Terraform-implemnt-for-CRC/assets/26092925/0209262b-7f91-4e7d-895a-490779f96e01">
+   ![terraform init]  <img width="1437" alt="Screen Shot 2024-06-27 at 6 35 44 PM" src="https://github.com/amanuelararso/Terraform-implemnt-for-CRC/assets/26092925/31bc1d45-04e5-4cdb-969f-615b5c7586b8">
+
 
 3. **Deploy**
    ```sh
