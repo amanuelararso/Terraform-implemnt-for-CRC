@@ -14,15 +14,27 @@ This repository contains the Terraform code to automate the deployment of all th
 
 ## Overview
 
-The AWS Cloud Resume Challenge (CRC) is a multi-faceted project aimed at showcasing your skills in various AWS services, and Forrest Brazeal recommends using Terraform, I found it really smart and helpfull. This repository automates the deployment of the following AWS services:
+The AWS Cloud Resume Challenge (CRC) is a multi-faceted project aimed at showcasing your skills in various AWS services, and Forrest Brazeal recommends using Terraform, I found it really smart and helpful. This repository automates the deployment of the following AWS services:
 
 - S3 Buckets: For hosting the static website and storing any additional resources.
 - CloudFront: To distribute the website content globally with low latency.
 - Route 53: For DNS management 
-- Lambda Function: For updating website visitor count and store it in DynamoDB
+- Lambda Function: For updating website visitor count and storing it in DynamoDB
 - REST API (API Gateway): To create and manage APIs for the Lambda function.
 - IAM Roles: To grant the necessary permissions to various AWS services.
 - DynamoDB: To store and retrieve data (visitor count)required by the application.
+
+ ## Time it took to deploy every service is:
+  API Gateway - 1sec
+  IAM role - 6sec
+  DynamoDB table - 10sec
+  2 S3 buckets - 11sec & 14sec
+  S3 bucket policy - 2sec
+  Lambda function - 14sec
+  Route 53 zone - 1m17sec
+  CloudFront Distribution - 7m0sec
+  
+Generally, just a minute has elapsed to deploy most services, and a little above 8 minutes for route 53 and CloudFront. Pretty fast!
 
 
 ## Prerequisites
@@ -51,6 +63,8 @@ The AWS Cloud Resume Challenge (CRC) is a multi-faceted project aimed at showcas
 4. **Verify the Deployment**
 
 After the deployment is complete, verify the services are running as expected. Visit your CloudFront URL or custom domain to see your resume.
+<img width="1437" alt="Screen Shot 2024-06-27 at 6 38 54 PM" src="https://github.com/amanuelararso/Terraform-implemnt-for-CRC/assets/26092925/4b0222b9-bf52-42c2-812a-825d25e2cb1e">
+
 
 ## License
 
